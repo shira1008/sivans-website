@@ -1,0 +1,47 @@
+/* section-header */
+
+.header-img {
+  padding-top: 5rem;
+  max-height: 7857px;
+  max-width: 750.67px;
+  margin: 0 auto;
+}
+
+.my-work {
+  text-align: center;
+}
+
+.my-work-imgs {
+  display: flex;
+  max-width: 1500px;
+  justify-content: center; /* Center the cards horizontally */
+  margin: 0 auto;
+  gap: 50px; /* Gap between cards */
+  flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+  padding-bottom: 3rem;
+}
+
+.img-card {
+  border: 1px solid #ccc; /* Add border for the card */
+  padding: 20px; /* Add padding around the card */
+  width: 300px; /* Adjust the width of the card as needed */
+  text-align: center;
+}
+
+.img-card img {
+  max-width: 100%; /* Make sure the image doesn't exceed the card width */
+  min-height: 400px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.img-card h4 {
+  margin-top: 10px; /* Space between image and name */
+}
+
+/* for jwerely page */
+
+.title {
+  text-align: center;
+  padding-bottom: 5rem;
+}

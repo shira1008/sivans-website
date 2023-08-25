@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- styles css -->
+    <link rel="stylesheet" href="./style/home.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- nav header  -->
+        <div class="nav-header">
+          <a href="home.html">
+            <img
+              src="./images/Screenshot_2-removebg-preview.png"
+              class="nav-logo"
+              alt="logo"
+          /></a>
+
+          <button type="button" class="nav-toggle" id="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- end of nav heaer -->
+        <!-- links -->
+        <ul class="nav-links" id="nav-links">
+          <li class="nav-link"><a href="jewr.html">תכשיטנות</a></li>
+          <li class="nav-link"><a href="tzor.html">צורפות</a></li>
+          <!-- Add more navigation links as needed -->
+        </ul>
+        <!-- end of links -->
+      </div>
+    </nav>
+    <section class="first-section">
+      <h2 class="title">התכשיטים שלי</h2>
+      <div class="my-work-imgs" id="jewelryContainer"></div>
+    </section>
+    <script src="data.js"></script>
+    <script src="navbar_toggle.js"></script>
+  </body>
+</html>

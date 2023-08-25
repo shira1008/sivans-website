@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+/*
+===============
+All my Variables
+===============
+*/
+
+:root {
+  /* primary color */
+  --clr-primary-5: hsl(216, 32%, 55%);
+  /* dark shades of the primary color*/
+  --clr-primary-1: hsl(103, 32%, 15%);
+  --clr-primary-2: hsl(105, 31%, 25%);
+  --clr-primary-3: hsl(104, 31%, 35%);
+  --clr-primary-4: hsl(298, 32%, 45%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(160, 31%, 65%);
+  /* used for btn */
+  --clr-primary-7: #abc9ab;
+  --clr-primary-8: hsl(106, 36%, 83%);
+  --clr-primary-9: hsl(104, 70%, 94%);
+  --clr-primary-10: hsl(105, 31%, 95%);
+  /* darkest shades of grey - used for headings */
+  --clr-grey-1: hsl(118, 61%, 16%);
+  --clr-grey-2: hsl(153, 41%, 9%);
+  --clr-grey-3: hsl(143, 35%, 30%);
+  --clr-grey-4: hsl(149, 28%, 39%);
+  /* shades of grey used for the paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  /* shades of secondry color הוא הפך לפריימרי במחשבה שנייה */
+  --clr-sec-1: #d6c29f;
+  --clr-sec-2: #faecd8;
+  --clr-sec-3: rgb(196, 118, 82);
+  --clr-nav: #fcf2e5;
+  --ff-primary: "Lato", sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  /* for shadows */
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/*
+==============================================
+global Style for all the project
+==============================================
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-primary);
+  background: var(--clr-sec-2);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+/* dont want the lines in the links */
+a {
+  text-decoration: none;
+}
+
+img:not(.nav-logo) {
+  width: 100%;
+  display: block;
+}
+
+/*
+שהכותרות יהיו בעיצוב אחיד */
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-5);
+}
+
+/* התאמה למסך גדול יותר מעל 800 */
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+/*global classes for all the project (for exmple - i have a lot of buttons) */
+
+.btn {
+  text-transform: uppercase;
+  background: var(--clr-sec-1);
+  color: var(--clr-white);
+  padding: 0.75rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  /* font-weight: 700; */
+  transition: var(--transition);
+  font-size: 0.875rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.btn:hover {
+  color: var(--clr-primary-1);
+  background: var(--clr-primary-7);
+}
+
+section {
+  padding: 2.5rem 0;
+}
+
+.first-section {
+  padding: 10rem 0;
+}
+
+.about-me {
+  text-align: center;
+  font-size: 1.2rem;
+  color: grey;
+}
