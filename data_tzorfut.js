@@ -2,7 +2,7 @@
 
 const jewelryData = [
   { title: "שרשרת חץ וקשת כסף 925", url: "./images/tzorfut/arrow.jpg" },
-  { title: "מחזיק מפתחות תלתן ירוד כסף 925", url: "./images/tzorfut/car.jpg" },
+  { title: "מחזיק מפתחות תלתן ירוק כסף 925", url: "./images/tzorfut/car.jpg" },
   { title: "שרשרת טביעת רגל כסף 925", url: "./images/tzorfut/dog.jpg" },
   { title: "שרשרת פנינה וכסף 925", url: "./images/tzorfut/pnina.jpg" },
   {

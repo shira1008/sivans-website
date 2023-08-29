@@ -3,7 +3,10 @@
 const jewelryData = [
   { title: "עגילי פנינה", url: "./images/jewerly/greenearingspnina.jpg" },
   { title: "צמיד חרוזים בגווני ירוק", url: "./images/jewerly/greentzamid.jpg" },
-  { title: "שרשרת פנינים ארוכה", url: "./images/jewerly/lightpninim.jpg" },
+  {
+    title: "שרשרת פנינים וחרוזים ארוכה",
+    url: "./images/jewerly/lightpninim.jpg",
+  },
   { title: "צמיד חרוזים ורוד", url: "./images/jewerly/pink.jpg" },
   {
     title: "עגילי פנינה וחרוזים ורודים",
@@ -15,9 +18,12 @@ const jewelryData = [
     title: "צמיד חרוזים ופנינה",
     url: "./images/jewerly/tazamidGreenPnina.jpg",
   },
-  { title: "עגיל חישוק חרוזים", url: "./images/jewerly/AgilHarooziBoozi.jpg" },
   {
-    title: "עגיל חגיגי פנינה",
+    title: "עגיל חישוק עם חרוזים",
+    url: "./images/jewerly/AgilHarooziBoozi.jpg",
+  },
+  {
+    title: "עגיל חגיגי עם פנינה",
     url: "./images/jewerly/AgilHagigiPninaREPLACE.jpg",
   },
   {
@@ -25,7 +31,7 @@ const jewelryData = [
     url: "./images/jewerly/agilBrown.jpg",
   },
   {
-    title: "עגיל חישוק פנינה צבעוני",
+    title: "עגיל חישוק צבעוני עם פנינה ",
     url: "./images/jewerly/agilKatom.jpg",
   },
   {
@@ -42,7 +48,7 @@ const jewelryData = [
   },
 
   {
-    title: "צמיד חום פנינה",
+    title: "צמיד חום עם פנינה",
     url: "./images/jewerly/tzamidhoom.jpg",
   },
   {
@@ -58,7 +64,7 @@ const jewelryData = [
     url: "./images/jewerly/ktor.jpg",
   },
   {
-    title: "צ'וקר חרוזים חום לבן",
+    title: " צ'וקר חרוזים חום לבן תכלת",
     url: "./images/jewerly/chokerDark.jpg",
   },
   {
