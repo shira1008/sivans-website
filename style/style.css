@@ -36,12 +36,13 @@ All my Variables
   --clr-white: #fff;
   /* shades of secondry color הוא הפך לפריימרי במחשבה שנייה */
   --clr-sec-1: #d6c29f;
-  --clr-sec-2: #faecd8;
+  --clr-sec-2: rgb(250, 236, 216);
+
   --clr-sec-3: rgb(196, 118, 82);
   --clr-nav: #fcf2e5;
   --ff-primary: "Lato", sans-serif;
   --transition: all 0.3s linear;
-  --spacing: 0.25rem;
+  --spacing: 0.2rem;
   --radius: 0.5rem;
   /* for shadows */
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
