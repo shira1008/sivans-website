@@ -80,7 +80,13 @@ Navbar - small screen
 
 /* js gonna add this class נראה את זה מופיע כי: */
 .show-links {
+  transition: var(--transition);
   height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
 }
 
 /* FOR THE BIG SCREEN */
