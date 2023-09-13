@@ -9,10 +9,10 @@
 
 .header {
   background: linear-gradient(
-      rgba(250, 236, 216, 0.7),
-      rgba(250, 236, 216, 0.5)
+      rgba(250, 236, 216, 0.9),
+      rgba(233, 220, 201, 0.7)
     ),
-    url(../images/pexels-photo-7232915.jpeg) center/cover no-repeat;
+    url(../images/pexels-photo-7232915.jpeg) center;
 }
 
 .my-work {
@@ -52,4 +52,37 @@
 .title {
   text-align: center;
   padding-bottom: 5rem;
+}
+
+/* foooter */
+.footer {
+  display: flex;
+  background-color: var(--black-color);
+  justify-content: center;
+}
+
+.footer__container {
+  padding-block: 3rem 2rem;
+  row-gap: 2.5rem;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer__link {
+  color: var(--clr-white);
+  transition: color 0.4s;
+}
+
+.footer__link:hover {
+  color: var(--clr-sec-1);
+}
+
+.footer__copy {
+  color: var(--clr-sec-1);
+  font-size: 1rem;
 }

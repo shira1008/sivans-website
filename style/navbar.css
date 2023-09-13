@@ -29,12 +29,14 @@ Navbar - small screen
   position: relative;
   height: 85px;
   width: 160px;
+
+  transform: translateX(-30px);
 }
 
 .nav-header {
   display: flex;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0;
 }
 
 /* the btn */
@@ -86,7 +88,6 @@ Navbar - small screen
   display: flex;
   flex-direction: column;
   align-items: end;
-  justify-content: end;
 }
 
 /* FOR THE BIG SCREEN */
