@@ -92,6 +92,10 @@ Navbar - small screen
 
 /* FOR THE BIG SCREEN */
 @media screen and (min-width: 975px) {
+  .nav-logo {
+    right: -100px;
+  }
+
   /* we dont want the nav icon */
   .nav-toggle {
     display: none;
@@ -136,5 +140,10 @@ Navbar - small screen
   }
   .nav-icon:hover {
     color: var(--clr-sec-3);
+  }
+
+  .header-img {
+    width: 50px;
+    height: 500px;
   }
 }

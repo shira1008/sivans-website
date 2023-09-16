@@ -74,6 +74,7 @@ ul {
 /* dont want the lines in the links */
 a {
   text-decoration: none;
+  color: var(--clr-grey-2);
 }
 
 img:not(.nav-logo) {
